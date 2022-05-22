@@ -30,7 +30,7 @@ class FizzBuzzUnitTest {
         assertEquals("Buzz", fizzBuzz(25))
         assertEquals("Buzz", fizzBuzz(95))
     }
-    
+
     @Test
     fun `15,30,45,60,75,90 = FizzBuzz`() {
         assertEquals("FizzBuzz", fizzBuzz(15))
